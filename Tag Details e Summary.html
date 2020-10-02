@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Details e Summary</title>
+
+    <style>
+        summary::-webkit-details-marker{
+            color: #f00;
+        }
+        details[open] summary::-webkit-details-marker{
+            color: #00f;
+        }
+        #cursos article{
+            background-color: #ddd;
+            border: 1px solid #000;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        details{
+            background-color: aqua;
+            border: 1px solid #000;
+            border-radius: 15px;
+            padding: 15px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <details id="cursos">
+        <summary>Cursos do nosso Canal</summary>
+        <article>
+        <li><del cite="" datetime="02-10-2020T17:55:00">HTML</del></li>
+            <li>HTML5</li>
+            <li>HTML5 Completo e Profissional</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+        </article>
+
+        <article>
+            <li><del cite="" datetime="02-10-2020T17:55:00">HTML</del></li>
+                <li>HTML5</li>
+                <li>HTML5 Completo e Profissional</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+            </article>
+
+    </details>
+    <article>
+        <li><del cite="" datetime="02-10-2020T17:55:00">HTML</del></li>
+            <li>HTML5</li>
+            <li>HTML5 Completo e Profissional</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+    </article>
+    <details>
+        <summary>Cursos do nosso Canal</summary>
+        <article>
+        <li><del cite="" datetime="02-10-2020T17:55:00">HTML</del></li>
+            <li>HTML5</li>
+            <li>HTML5 Completo e Profissional</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+        </article>
+
+        <article>
+            <li><del cite="" datetime="02-10-2020T17:55:00">HTML</del></li>
+                <li>HTML5</li>
+                <li>HTML5 Completo e Profissional</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+            </article>
+
+    </details>
+</body>
+</html>
