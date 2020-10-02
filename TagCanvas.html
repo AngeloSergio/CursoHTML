@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Canvas</title>
+    <style>
+        canvas{border:1px #000 solid; border-radius: 15px;}
+    </style>
+
+    <script>
+        function desenha(){
+            var canvas = document.getElementById('canvas');
+            var ctx = canvas.getContext('2d');
+            ctx.fillRect(25,25,100,100);
+        }
+    </script>
+</head>
+
+<body>
+    
+    <canvas id="canvas" height="500px" width="500px">
+        Seu navegador não tem suporte ao elemento Canvas
+    </canvas>
+
+    <script>desenha();</script>
+
+</body>
+</html>
